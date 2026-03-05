@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hỏi Dân IT",
+      "email": "hoidanit@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Eric",
+      "email": "eric@example.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "content": "This is a post."
+    },
+    {
+      "id": 2,
+      "title": "Another Post",
+      "content": "More content here."
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Tự học lập trình hiệu quả",
+      "author": "Phước Nguyễn",
+      "content": "Tự học lập trình cần sự kiên trì và thực hành mỗi ngày. Hãy tập trung vào nền tảng và làm nhiều dự án nhỏ."
+    },
+    {
+      "id": 2,
+      "title": "Tầm quan trọng của Portfolio",
+      "author": "Phước Nguyễn",
+      "content": "Portfolio giúp nhà tuyển dụng thấy rõ năng lực thực tế của bạn thông qua các dự án đã làm."
+    },
+    {
+      "id": 3,
+      "title": "Quản lý thời gian cho sinh viên IT",
+      "author": "Phước Nguyễn",
+      "content": "Lập kế hoạch rõ ràng và ưu tiên việc quan trọng sẽ giúp bạn cân bằng giữa học và làm."
+    },
+    {
+      "title": "xin chao",
+      "author": "amazinng",
+      "content": "good",
+      "id": 8
+    },
+    {
+      "title": "a",
+      "author": "b",
+      "content": "c",
+      "id": 12
+    },
+    {
+      "title": "a",
+      "author": "b",
+      "content": "c",
+      "id": 17
+    }
+  ]
+}
