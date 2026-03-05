@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap thuc hanh 2</title>
+    <style>
+        #myTable {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            padding-top: 20px
+        }
+
+        #myTable td,
+        #myTable th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #myTable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #myTable tr:hover {
+            background-color: #ddd;
+        }
+
+        #myTable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+        #table {
+            padding-top: 20px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Create a blog </h2>
+        <div>
+            <span>Title: </span>
+            <input type="text" id="txtTitle"/> 
+        </div>
+        <div>
+            <br>
+            <span>Author: </span>
+            <input type="text" id="txtAuthor"/>
+        </div>
+        <div>
+            <br>
+            <span>Content: </span>
+            <input type="text" id="txtContent"/>        
+            <button id="btnSaveBlog">Save</button>
+        </div>
+    </div>
+    <div id="table">
+        <table id="myTable">
+        <thead>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Content</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr> -->
+        </tbody>
+    </table>
+    </div>
+    <script src="thuchanh2.js"></script>
+</body>
+</html>
